@@ -1,0 +1,18 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+    <hello-component id="hello1" />
+    <script type="module" src="./hello.js"></script>
+    <script>
+        const el = document.querySelector('#hello1');
+        el.props = {
+            name: 'José'
+        }
+    </script>
+</body>
+
+</html>
